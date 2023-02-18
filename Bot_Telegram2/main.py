@@ -13,7 +13,7 @@ def strt(message):
 def HelpSaha(message):
     markup = types.InlineKeyboardMarkup()
     markup.add(types.InlineKeyboardButton('Помочь Саше', url='https://donate.qiwi.com/payin/Colector23'))
-    bot.send_message(message.chat.id, 'Пожалуйсто Помогите Саше', reply_markup=markup)
+    bot.send_message(message.chat.id, 'Пожалуйста Помогите Саше', reply_markup=markup)
 
 @bot.message_handler(commands=['help'])
 def help(message):
